@@ -1,0 +1,35 @@
+body {
+  background-color: #d3d3d3;
+  color: black;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+fieldset {
+  background-color: #cf1e45;
+  border: 5px solid #002a46;
+  border-radius: 1em;
+  color: #002a46;
+  margin: auto;
+}
+
+form {
+  margin: 0 auto;
+  padding: 1em;
+  width: 500px;
+}
+h1 {
+  color: #cf1e45;
+  text-align: center;
+}
+h3 {
+  color: #002a46;
+  text-align: center;
+}
+label {
+  display: inline-block;
+  width: 200px;
+}
+select {
+  display: inline-block;
+  width: 150px;
+}
