@@ -8,7 +8,7 @@ const display = (clientData) => {
 
 display(data);
 
-form.addEventListener("submit", function () {
+form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   data.push(clients(event.target.elements));
