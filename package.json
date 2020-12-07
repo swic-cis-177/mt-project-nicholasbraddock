@@ -1,10 +1,10 @@
 {
-  "name": "js-starter",
+  "name": "nicholas-final-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nicholas Braddock's Final Project",
   "main": "index.js",
   "scripts": {
-    "serve": "browser-sync start --server --files '*.html, *.css, *.js'"
+    "start": "browser-sync start --server --files '*.html, *.css, *.js'"
   },
   "keywords": [],
   "author": "",
