@@ -33,3 +33,22 @@ select {
   display: inline-block;
   width: 150px;
 }
+
+button {
+  background-color: #cf1e45;
+  border: 2.5px solid;
+  border-color: black;
+}
+
+table {
+  border-color: black;
+  margin: auto;
+  text-align: center;
+}
+thead {
+  background-color: #cf1e45;
+}
+
+td {
+  border: 1px solid black;
+}
