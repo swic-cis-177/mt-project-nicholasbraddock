@@ -1,5 +1,6 @@
 export default [
   {
+    clientNumber: "1",
     ownerName: "Nick Braddock",
     email: "nicholas.braddock@student.swic.edu",
     cell: "1234567890",
