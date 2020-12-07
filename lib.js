@@ -15,20 +15,18 @@ const processForm = (elements) =>
 export const createCurrentClients = (data) => {
   tbody.innerHTML = null;
 
-  data.forEach(({ clientNumber, ownerName, cell, petName }) => {
+  data.forEach(({ ownerName, cell, petName }) => {
     const newClientRow = template.content.cloneNode(true);
     const newClientTDs = newClientRow.querySelectorAll("td");
 
-    newClientTDs[0].textContent = clientNumber;
-    newClientTDs[1].textContent = ownerName;
-    newClientTDs[2].textContent = cell;
-    newClientTDs[3].textContent = petName;
+    newClientTDs[0].textContent = ownerName;
+    newClientTDs[1].textContent = cell;
+    newClientTDs[2].textContent = petName;
 
     tbody.appendChild(newClientRow);
   });
 };
 
-export const clientWithNumber = (elements, data) => ({
-  id: data.count(),
+export const clients = (elements) => ({
   ...processForm(elements),
 });
